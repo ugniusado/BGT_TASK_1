@@ -20,6 +20,10 @@ Hash generatoriaus kūrimas
 
 Šioje programos versijoje, nepilnai išbaigta hash funkcija, neveikia spausdinimas į failą, bet pakeitus spausdinimo būdą į konsolę veikia.
 
+**[v0.13](https://github.com/ugniusado/BGT_TASK_1/releases/tag/v0.13)**
+
+Šioje programoje sutvarkytas spausdinimo į failą bug'as, spausdinimas įmanomas ir į failą ir į konsolę.
+
 
 
 
