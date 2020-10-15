@@ -42,7 +42,7 @@ https://prnt.sc/v04ndh
 
 Laikas: https://prnt.sc/v04ml4
 
-**Rezultatai hash'uojant tuščią failą : **
+**Rezultatai hash'uojant tusčią failą : **
 
 https://prnt.sc/v04osw
 
