@@ -24,6 +24,44 @@ Hash generatoriaus kūrimas
 
 Šioje programoje sutvarkytas spausdinimo į failą bug'as, spausdinimas įmanomas ir į failą ir į konsolę.
 
+**[v0.14](https://github.com/ugniusado/BGT_TASK_1/releases/tag/v0.13)**
 
+Šioje programos versijoje pridėta biblioteka <chrono> išmatuoti programos efektyvumą, bei programos efektyvumui pagerinti programos kodas išskaidytas dalimis.
 
+## Programos testavimas
 
+**Rezultatai hash'uojant tą pati žodį, tik mažąją raidę pakeičiant didžiąja:**
+
+Žodis lietuva: https://prnt.sc/v04hok
+
+Žodis Lietuva: https://prnt.sc/v04gyo
+
+**Rezultatai hash'uojant atsitiktinų 1000 raidžiu/skaičių string'o : **
+
+https://prnt.sc/v04ndh
+
+Laikas: https://prnt.sc/v04ml4
+
+**Rezultatai hash'uojant tuščią failą : **
+
+https://prnt.sc/v04osw
+
+Laikas : https://prnt.sc/v04o5j
+
+## Programos efektyvumas
+
+Lyginant programos darbą su SHA 256:
+
+•Programa neveikia, jei įvedamas bent vienas ne tekstinis ar ne skaitmeninis simbolis
+
+•Lyginant su SHA 256 programa veikia labai lėtai ir yra neefektyvi
+
+•Programai kyla problemų su atmintim dirbant su didesnės apimties failais
+
+## Išvados
+
+•Sunku surasti du tokius pačius hash'us, kuriamus iš skirtingų argumentų
+
+•Kartais programai crash'inant ir spausdinant per ilgą hash išeiga, buvo bandyta tvarkyti declare'inant fixed hasho dydį, bet tada programa neveikdavo.
+
+•Palyginus su kitais hash'avimo metodais programa veikia labai neefektyviai
