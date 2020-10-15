@@ -1,6 +1,3 @@
-// ConsoleApplication5.cpp : This file contains the 'main' function. Program execution begins and ends there.
-//
-
 #include <iostream>
 #include <string>
 #include <vector>
@@ -34,20 +31,6 @@ public:
 				if (i + 1 == var.size())didinimas(t);
 				else var.at(i + 1) = var.at(i + 1) + t;
 				var.at(i) = var.at(i) % 1000000;
-			}
-		}
-	}
-
-	void check2()
-	{
-		int t;
-		while (var.at(5) > 339)
-		{
-			for (int i = 0; i < var.size(); i++)
-			{
-				t = var.at(i) % 10;
-				var.at(i) = var.at(i) / 10;
-				if (i != 0) var.at(i - 1) = var.at(i - 1) + t * 100000;
 			}
 		}
 	}
@@ -87,7 +70,7 @@ public:
 
 	string GetHex()
 	{
-		check2();
+		
 		std::string hex = "";
 		int  r;
 		char ati[] = { '0','1','2','3','4','5','6','7','8','9','A','B','C','D','E','F' };
@@ -148,7 +131,6 @@ vector<string> GetString()
 {
 	vector<string> eilute;
 	eilute = read();
-	eilute.erase(eilute.begin());
 	return eilute;
 
 }
@@ -176,7 +158,5 @@ int main()
 	vector<string> eilute = GetString();
 	vector<string> hex = Hash(eilute);
 	print(hex);
- 
+
 }
-
-
