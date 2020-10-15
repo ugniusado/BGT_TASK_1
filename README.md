@@ -24,7 +24,7 @@ Hash generatoriaus kūrimas
 
 Šioje programoje sutvarkytas spausdinimo į failą bug'as, spausdinimas įmanomas ir į failą ir į konsolę.
 
-**[v0.14](https://github.com/ugniusado/BGT_TASK_1/releases/tag/v0.13)**
+**[v0.14](https://github.com/ugniusado/BGT_TASK_1/releases/tag/v0.14)**
 
 Šioje programos versijoje pridėta biblioteka <chrono> išmatuoti programos efektyvumą, bei programos efektyvumui pagerinti programos kodas išskaidytas dalimis.
 
